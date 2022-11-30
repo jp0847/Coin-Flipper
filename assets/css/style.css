@@ -20,6 +20,10 @@ h1 {
     margin: 0;
     padding: 25px;
 }
+button {
+    border-radius: 50px;
+    border: 1px solid black;
+}
 
 /* Controls and Message Styles */
 .controls {
@@ -38,7 +42,10 @@ button {
     margin-right: 10px;
     border-radius: 10px;
 }
-
+h2 {
+    color: orange;
+    font-weight: bold;
+}
 #flip,
 #roll {
     background: linear-gradient(to bottom left, lightblue, white);
@@ -68,4 +75,9 @@ td {
 td {
     padding: 5px;
     font-weight: bold;
+}
+#button-section {
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
 }
